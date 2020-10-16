@@ -1,9 +1,7 @@
 common:
   api_mode: false
-  api_access_token: 123456
-  default_url:
-    [
-    ]
+  api_access_token: password
+  default_url: []
   enable_insert: true
   insert_url: []
   prepend_insert_url: true
