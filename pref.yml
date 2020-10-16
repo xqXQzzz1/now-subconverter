@@ -48,7 +48,7 @@ userinfo:
     - { match: "^.*?流量:(?:.*?) 剩:(.*?)天$", replace: "left=$1d" }
 
 node_pref:
-  # udp_flag: false
+  udp_flag: true
   # tcp_fast_open_flag: false
   sort_flag: false
   sort_script: ""
